@@ -1,0 +1,35 @@
+.title{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#proback{
+	background-color: white;
+	position: absolute;
+	width: 780px;
+	height: 480px;
+	overflow: auto;
+}
+
+.miaoshu{
+	font-weight: bold;
+}
+
+.jutimiaoshu{
+	font-size:15px;
+}
+
+.user{
+	color: green;
+	font-weight: bold;
+}
+
+textarea{
+	left:10%;
+	resize: none;
+	width: 500px;
+	height: 100px;
+}

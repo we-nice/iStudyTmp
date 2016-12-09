@@ -1,0 +1,69 @@
+#dushushe {
+	background-image: url(../img/beijing.jpg);
+	height: 100%;
+	width: 100%;
+	float: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+#Logo {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	text-align: center;
+	width: 200px;
+	height: auto;
+}
+#Logo a{
+	color:black;
+}
+#Logo a:hover {
+	color: red;
+}	/* 鼠标移动到链接上 */
+#dabiaoti {
+	font-family: "楷体";
+	font-size: 36px;
+	width: 500px;
+	text-align: center;
+	margin-top: -80px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 500px;
+}
+#left{
+	width: 200px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-left: 10%;
+	height: 500px;
+}
+
+#left .but1{
+	text-align: center;
+	display: inline;
+	font-size: 30px;
+}
+#left .but2{
+
+	text-align: center;
+	display: inline;
+	font-size: 30px;
+}
+#iframe {
+	
+	height: 500px;
+	width: 800px;
+	margin-top: -500px;
+	margin-left: 400px;
+	
+	
+}
+a:link {
+	color: #3399FF
+}		/* 未访问的链接 */
+a:visited {color: #3399FF}	/* 已访问的链接 */
+a:hover {
+	color: #0033FF
+}	/* 鼠标移动到链接上 */
+a:active {color: #0000FF}	/* 选定的链接 */
+a { TEXT-DECORATION:none }

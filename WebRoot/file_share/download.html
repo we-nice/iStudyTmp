@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>资料分享-文件下载</title>
+	<link rel="stylesheet" href="css/center.css" type="text/css" />
+	<link rel="stylesheet" href="css/college1.css" type="text/css" />
+	<link rel="stylesheet" href="css/college2.css" type="text/css" />
+	<link rel="stylesheet" href="css/college3.css" type="text/css" />
+	<link rel="stylesheet" href="css/college4.css" type="text/css" />
+	<link rel="stylesheet" href="css/college5.css" type="text/css" />
+	<link rel="stylesheet" href="css/college6.css" type="text/css" />
+	<link rel="stylesheet" href="css/college7.css" type="text/css" />
+	<link rel="stylesheet" href="css/college8.css" type="text/css" />
+	<link rel="stylesheet" href="css/college9.css" type="text/css" />
+	<link rel="stylesheet" href="css/tubiao.css" type="text/css" />
+	<link rel="stylesheet" href="css/xueyuan.css" type="text/css" />
+	<link rel="stylesheet" href="css/myframe.css" type="text/css" />
+</head>
+<body>
+	<div id="con">
+			<div id="college1">
+			   <img id="tubiao" src="images/tb1.png">
+			   <button id="xueyuan" onclick="leibie()">数计学院</button> 
+
+			   <div id="college2">
+			       <img id="tubiao" src="images/tb1.png">
+			       <span id="xueyuan">物信学院</span>
+                   <div id="college3">
+                       <img id="tubiao" src="images/tb1.png">
+                       <span id="xueyuan">经管学院</span>
+                   </div>
+			   </div>
+			</div>
+			<div id="college4">
+			    <img id="tubiao" src="images/tb1.png">
+			    <span id="xueyuan">外语学院</span>
+			    <div id="college5">
+			       <img id="tubiao" src="images/tb1.png">
+			       <span id="xueyuan">建筑学院</span>
+                   <div id="college6">
+                   	   <img id="tubiao" src="images/tb1.png">
+                   	   <span id="xueyuan">土木学院</span>
+                   </div>
+			   </div>
+			</div>
+			<div id="college7">
+			    <img id="tubiao" src="images/tb1.png">
+			    <span id="xueyuan">生物学院</span>
+                <div id="college8">
+                   <img id="tubiao" src="images/tb1.png">
+                   <span id="xueyuan">水利学院</span>
+                   <div id="college9">
+                   	   <img id="tubiao" src="images/tb1.png">
+                   	   <span id="xueyuan">环资学院</span>
+                   </div>
+			   </div>
+			</div>
+	</div>
+	<div id="leibie2" style="display: none">
+		<div id="college1">
+			   <img id="tubiao" src="images/tb1.png">
+			   <button id="xueyuan" onclick="getcontent()">c语言</button> 
+
+			   <div id="college2">
+			       <img id="tubiao" src="images/tb1.png">
+			       <span id="xueyuan">高等数学</span>
+                   <div id="college3">
+                       <img id="tubiao" src="images/tb1.png">
+                       <span id="xueyuan">软件工程</span>
+                   </div>
+			   </div>
+			</div>
+			<div id="college4">
+			    <img id="tubiao" src="images/tb1.png">
+			    <span id="xueyuan">c++</span>
+			    <div id="college5">
+			       <img id="tubiao" src="images/tb1.png">
+			       <span id="xueyuan">线性代数</span>
+                   <div id="college6">
+                   	   <img id="tubiao" src="images/tb1.png">
+                   	   <span id="xueyuan">离散数学</span>
+                   </div>
+			   </div>
+			</div>
+			<div id="college7">
+			    <img id="tubiao" src="images/tb1.png">
+			    <span id="xueyuan">软件工程</span>
+                <div id="college8">
+                   <img id="tubiao" src="images/tb1.png">
+                   <span id="xueyuan">java</span>
+                   <div id="college9">
+                   	   <img id="tubiao" src="images/tb1.png">
+                   	   <span id="xueyuan">web</span>
+                   </div>
+			   </div>
+			</div>
+	</div>
+
+	<script>
+		function leibie() {
+			var mychar_nodisplay = document.getElementById("con");
+			mychar_nodisplay.style.display="none";
+		    var mychar_display = document.getElementById("leibie2");
+			mychar_display.style.display="block";
+		}
+		function getcontent(){
+			document.getElementById('leibie2').innerHTML = "<iframe id='myframe' src='item.html'></iframe>";
+		}
+	</script>
+</body>
+</html>

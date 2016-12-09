@@ -1,0 +1,56 @@
+#upload_bigchuang{
+	position: relative;
+	width: 600px;
+	margin: 20px auto;
+	height: 350px;
+	border: 1px solid #fff;
+}
+#choice{
+	position: absolute;
+	border: 1px solid #ff0;
+	width: 220px;
+	height: 50px;
+	left: 100px;
+	top: 25px;
+}
+#btn_choose{
+	position: absolute;
+	width: 75px;
+	height: 50px;
+    left: 245px;
+    top: 0px;
+}
+#choosexueyuan{
+	position: absolute;
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+	top: 120px;
+	left: 100px;
+}
+#choosesubject{
+	position: absolute;
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+	top: 210px;
+	left: 100px;
+}
+
+#btn_ack{
+	position: absolute;
+	width: 90px;
+	height: 35px;
+    line-height: 35px;
+    top:280px; 
+    left: 100px;
+}
+
+#btn_noack{
+	position: absolute;
+	width: 90px;
+	height: 35px;
+    line-height: 35px;
+    top:280px; 
+    left: 280px;
+}

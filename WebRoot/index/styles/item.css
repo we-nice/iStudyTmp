@@ -1,0 +1,64 @@
+#item{
+	position: absolute;
+	border: 1px solid #fff;
+	left: 0px;
+	top: 0px;
+	width:550px;
+	height:50px;
+}
+#item_biaoti{
+	position: absolute;
+	font-size: 12px;
+	width: 190px;
+	line-height: 30px;
+	left: 7px;
+	top: 7px;
+	bottom: 7px;
+	text-align: center;
+	border: 1px solid #fff;
+	background: pink;
+}
+#item_size{
+	position: absolute;
+	font-size: 12px;
+	width: 100px;
+	line-height: 30px;
+	left: 250px;
+	top: 7px;
+	bottom: 7px;
+	text-align: center;
+	border: 1px solid #fff;
+	background: pink;
+}
+#item_download{
+	position: absolute;
+	font-size: 12px;
+	width: 100px;
+	line-height: 30px;
+	right: 20px;
+	top: 7px;
+	bottom: 7px;
+	text-align: center;
+	border: 1px solid #fff;
+	background: pink;
+}
+#item_size{
+	position: absolute;
+	font-size: 12px;
+	width: 100px;
+	line-height: 30px;
+	left: 250px;
+	top: 7px;
+	bottom: 7px;
+	text-align: center;
+	border: 1px solid #fff;
+	background: pink;
+}
+#item2{
+	position: absolute;
+	border: 1px solid #fff;
+	left: 0px;
+	top: 50px;
+	width:550px;
+	height:50px;
+}

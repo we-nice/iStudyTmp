@@ -1,0 +1,49 @@
+#book1 {
+	height: 200px;
+	width: 110px;
+}
+#book2 {
+	height: 200px;
+	width: 110px;
+	margin-top: -200px;
+	margin-left: 200px;
+}
+#book3 {
+	height: 200px;
+	width: 110px;
+	margin-top: -200px;
+	margin-left: 400px;
+}
+#book4 {
+	height: 200px;
+	width: 110px;
+	margin-top: -200px;
+	margin-left: 600px;
+}
+#book5 {
+	height: 200px;
+	width: 110px;
+	
+}
+#book6 {
+	height: 200px;
+	width: 110px;
+	margin-left: 200px;
+	margin-top: -200px;
+}
+#book7 {
+	height: 200px;
+	width: 110px;
+	margin-left: 400px;
+	margin-top: -200px;
+}
+#book8 {
+	height: 200px;
+	width: 110px;
+	margin-left: 600px;
+	margin-top: -200px;
+}
+#book9{
+	height: 200px;
+	width: 110px;
+}

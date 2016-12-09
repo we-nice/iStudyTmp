@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ziliao1.0</title>
+	<link rel="stylesheet" href="css/left.css" type="text/css" />
+	<link rel="stylesheet" href="css/title.css" type="text/css" />
+	<link rel="stylesheet" href="css/left-download.css" type="text/css" />
+	<link rel="stylesheet" href="css/left-upload.css" type="text/css" />
+	<link rel="stylesheet" href="css/right.css" type="text/css" />
+	<link rel="stylesheet" href="css/nowpos.css" type="text/css" />
+	<link rel="stylesheet" href="css/center.css" type="text/css" />
+	<link rel="stylesheet" href="css/college1.css" type="text/css" />
+	<link rel="stylesheet" href="css/college2.css" type="text/css" />
+	<link rel="stylesheet" href="css/college3.css" type="text/css" />
+	<link rel="stylesheet" href="css/college4.css" type="text/css" />
+	<link rel="stylesheet" href="css/college5.css" type="text/css" />
+	<link rel="stylesheet" href="css/college6.css" type="text/css" />
+	<link rel="stylesheet" href="css/college7.css" type="text/css" />
+	<link rel="stylesheet" href="css/college8.css" type="text/css" />
+	<link rel="stylesheet" href="css/college9.css" type="text/css" />
+	<link rel="stylesheet" href="css/tubiao.css" type="text/css" />
+	<link rel="stylesheet" href="css/xueyuan.css" type="text/css" />
+	<link rel="stylesheet" href="css/myframe.css" type="text/css" />
+</head>
+<body background="images/beijing.jpg">
+	<div id="left">
+		<div id="title">资料分享</div>
+		<button id="left-download" onclick="download()">文件下载</button>
+		<button id="left-upload" onclick="upload()">文件上传</button>
+
+		<div id="right">
+			<div id="nowpos">当前位置：文件下载</div>
+		</div>
+
+	    <div id="center">
+		   <iframe id="myframe" src="download.html" frameborder="2"></iframe>
+	    </div>
+	</div>
+    <script>
+		function download() {
+			document.getElementById('center').innerHTML = "<iframe id='myframe' src='download.html'></iframe>";
+		}
+		function upload() {
+			document.getElementById('center').innerHTML = "<iframe id='myframe' src='upload.html'></iframe>";
+		}
+	</script>
+	
+</body>
+</html>

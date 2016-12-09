@@ -1,0 +1,97 @@
+#center{
+	position: absolute;
+	left: 240px;
+    bottom: 0px;
+	border: 1px solid #fff;
+	width: 600px;
+    height: 400px;  
+}
+#college1{
+	position: relative;
+	background: #ffd;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#college2{
+	position: absolute;
+	background: #ffd;
+	top: 0px;
+	left: 190px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#college3{
+	position: absolute;
+	background: #ffd;
+	top: 0px;
+	left: 190px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#college4{
+	position: relative;
+	background: #ffd;
+	margin-top: 40px;
+	margin-left: 10px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#college5{
+	position: absolute;
+	background: #ffd;
+	top: 0px;
+	left: 190px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#college6{
+	position: absolute;
+	background: #ffd;
+	top: 0px;
+	left: 190px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#college7{
+	position: relative;
+	background: #ffd;
+	margin-top: 40px;
+	margin-left: 10px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#college8{
+	position: absolute;
+	background: #ffd;
+	top: 0px;
+	left: 190px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#college9{
+	position: absolute;
+	background: #ffd;
+	top: 0px;
+	left: 190px;
+	width: 150px;
+    height: 90px;
+    line-height: 90px;
+}
+#tubiao{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+#xueyuan{
+	border: 1px solid #ff0;
+	font-size: 15px;
+}

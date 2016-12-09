@@ -1,0 +1,75 @@
+.wentishuxing{
+	height: 50px;
+	line-height: 50px;
+}
+
+#wentimiaoshu{
+	position: absolute;
+	left: 10%;
+}
+
+#askback{
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	width: 780px;
+	height: 480px;
+	overflow: auto;
+}
+
+#fabuwenti{
+	position: absolute;
+	left: 80%;
+	top: 90%;
+	
+}
+.wenti{
+	height: 80px;
+	width: 600px;
+	position: relative;
+	background-color: white;
+}
+
+.timu{
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	width: 400px;
+}
+
+.neirong{
+	font-size: 14px;
+	font-family: 新宋体;
+	display: inline-block;
+	width: 400px;
+	color:grey;
+}
+
+.shang{
+	height: 40px;
+}
+
+#gaoshu{
+	background-color: pink;
+	width: 35px;
+	color:white;
+	right:20px;
+}
+
+.time{
+	color: green;
+	font-size: 14px;
+}
+
+.number{
+	color: grey;
+}
+
+.fengexian{
+	 height:1px;
+	 width:100%;
+	 background:#00CCFF;
+}
+
+a{
+	text-decoration: none;
+}

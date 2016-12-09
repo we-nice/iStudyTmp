@@ -1,0 +1,12 @@
+#item_size{
+	position: absolute;
+	font-size: 12px;
+	width: 100px;
+	line-height: 30px;
+	left: 250px;
+	top: 7px;
+	bottom: 7px;
+	text-align: center;
+	border: 1px solid #fff;
+	background: pink;
+}

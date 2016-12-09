@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>iStudy</title>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/js.js"></script>
+<link rel="stylesheet" href="styles/css.css" type="text/css" />
+<link rel="stylesheet" href="styles/public.css" type="text/css" />
+<link rel="stylesheet" href="styles/loginDialog.css" type="text/css">
+</head>
+<body id="shouye" >
+    <div id="UpdateNicBox">
+        <form action="">
+        <div class="row1">
+            修改资料
+            <a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn">×</a>
+        </div>
+        <div class="row">
+            昵称: <span class="inputBox">
+                <input type="text" id="txtName" />
+            </span>
+        </div>
+        <div class="row">
+             学院:  
+                  <select name="xueyuan" id="" class="inputBox">
+                     <option value="">数计</option>
+                     <option value="">经管</option>
+                     <option value="">土木</option>
+                  </select>
+      
+        </div>
+        <div class="row">
+             email: <span class="inputBox">
+                <input type="text" id="txtName"   />
+            </span> 
+        </div>
+        <div class="row">
+            <input type="submit" value="确定修改" id="loginbtn">
+        </div>
+        </form>
+    </div>
+  
+  <div id="UpdatePassBox">
+        <form action="">
+        <div class="row1">
+            修改密码
+            <a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn">×</a>
+        </div>
+        <div class="row">
+            原密码: <span class="inputBox">
+                <input type="password" name="oldPass" id="txtName"   />
+            </span>
+        </div>
+         <div class="row">
+            新密码: <span class="inputBox">
+                <input type="password" name="newPass"  id="txtName"   />
+            </span>
+        </div>
+          <div class="row">
+            确认密码: <span class="inputBox" >
+                <input type="password" name="confirmPass"  id="txtPwd"  />
+            </span>
+
+        </div>
+        <div class="row">
+            <input type="submit" value="确定修改" id="loginbtn">
+        </div>
+        </form>
+    </div>
+
+
+
+
+ <div id="header" style="display:hidden;">
+    <div id="content">
+    <ul id="content_ad"> 
+        <!--这边图片要么不设置大小,要么设置大小时,一定要设置成和原图大小一样(宽度和高度一样),否则js那边换图片时会出现图片会调节自己大小,导致图片稍微变形-->
+        <li><a href="#" target="_blank" title=""><img src="images/u20_state0.jpeg" alt="" /></a></li>  
+        <li><a href="#" target="_blank" title=""><img src="images/u20_state1.jpeg" alt="" /></a></li>
+        <li><a href="#" target="_blank" title=""><img src="images/u20_state2.jpg" alt="" /></a></li>
+    </ul>
+  
+  </div>
+    <div id="nav">
+       <div class="nav_daohang">
+        <a href="q&a.html"  title="" >问答</a>
+        <a href="ziliaofenx.html" title="">资料分享</a>
+        <a href="" title=""  class="background"><img src="images/u56.png" />A</a>
+        <a href="Readbook.html" title="">读书社</a>
+        <a href="" title="">关于</a>
+        </div>
+    </div>
+    <div id="user" class="use1">
+
+        <div class="title"><img src="images/u449.jpg" alt=""> 
+            <h4>0001</h4>
+        </div>
+        <div id="userDescription">
+            <ul>
+                <li><a href="">001</a></li>
+                <li><a href="#" id="example1">修改资料</a></li>
+                <li><a href="#"  id="example2">修改密码</a></li>
+                <li><a href="Admin/index.html" target="_self" >管理后台</a></li>
+                <li><a href="">退出登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="logo">
+        <h2>iStudy</h2>
+        <h3>可能是福大最好用的同性交友平台</h3>
+    <ul id="content_tab">
+        <li class="background"></li><li></li><li></li> 
+    </ul>
+         <div><a href="">了解更多</a></div>
+    </div>
+   
+</div>
+
+
+<div id="nouse" >
+	<div class="cont">
+    	 <div class="cont1">
+
+              <a href=""><img src="images/u375.png" alt=""></a> 
+              <h2>一问到底</h2>  
+               <div> 
+                <p>不懂就问，打破砂锅问到底是我们的态度。</p>
+               </div>
+             
+         </div>
+         <div class="cont1">
+
+              <a href=""><img src="images/u138.png" alt=""></a> 
+              <h2>资料分享</h2>  
+               <div> 
+                <p>大家好，才是真的好！</p>
+               </div>
+             
+         </div>
+         <div class="cont1">
+              <a href=""><img src="images/u3.png" alt=""></a> 
+              <h2>读书百卷</h2>  
+               <div> 
+                <p>书籍，是我们进步的电梯</p>
+               </div>
+             
+         </div>
+    </div>
+ 
+</div>
+<div id="footer">
+    <img style="position:absolute;left:0px;top:0px;width:100%;height:100%;z-index:-1;" src="images/u218_state0.jpg" />
+    <div class="tushutuijian">
+         <h2>图书推荐</h2>
+         <div>
+             <div class="t1">
+                 <a href=""><img src="images/u324.png" alt=""></a>
+                <div class="des">
+                    <h4>Flappy Bird</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus </p>
+                    <a>查看</a>
+                </div>
+             </div>
+            <div class="t1">
+                 <a href=""><img src="images/u324.png" alt=""></a>
+                <div class="des">
+                    <h4>Flappy Bird</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus </p>
+                    <a>查看</a>
+                </div>
+             </div>
+            <div class="t1">
+                 <a href=""><img src="images/u324.png" alt=""></a>
+                <div class="des">
+                    <h4>Flappy Bird</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus </p>
+                    <a>查看</a>
+                </div>
+             </div>
+             <div class="t1">
+                 <a href=""><img src="images/u324.png" alt=""></a>
+                <div class="des">
+                    <h4>Flappy Bird</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus </p>
+                    <a>查看</a>
+                </div>
+             </div>
+         </div>
+    </div>
+      <div class="youxiuhuida">
+        <h2>优秀回答</h2>
+        <div>
+             <div class="t1">
+                  <h3><a href=""><img src="images/u150.png" alt=""></a></h3> 
+
+                 <p>对我而言影响最大的是《C和指针》，简直完爆课堂上教的C语言，一下就让人对C提起精神了。还有一本推荐的是《深入理解计算机系统》，第一章就能应付很多校招面试官，涉猎范围也很广，从编译原理，汇编到操作系统计算机网络都有涉及，讲清楚了很多原来不懂的底层细 </p>
+                 <a>王海超</a>
+             </div>
+             <div class="t1">
+                  <h3><a href=""><img src="images/u150.png" alt=""></a></h3> 
+
+                 <p>对我而言影响最大的是《C和指针》，简直完爆课堂上教的C语言，一下就让人对C提起精神了。还有一本推荐的是《深入理解计算机系统》，第一章就能应付很多校招面试官，涉猎范围也很广，从编译原理，汇编到操作系统计算机网络都有涉及，讲清楚了很多原来不懂的底层细 </p>
+                 <a>王海超</a>
+             </div>
+             <div class="t1">
+                  <h3><a href=""><img src="images/u150.png" alt=""></a></h3> 
+
+                 <p>对我而言影响最大的是《C和指针》，简直完爆课堂上教的C语言，一下就让人对C提起精神了。还有一本推荐的是《深入理解计算机系统》，第一章就能应付很多校招面试官，涉猎范围也很广，从编译原理，汇编到操作系统计算机网络都有涉及，讲清楚了很多原来不懂的底层细 </p>
+                 <a>王海超</a>
+             </div>
+        </div>
+        
+    </div>
+      
+</div>
+
+<div id="guanyu">
+	<div class="left"> 
+           <div class="t1">
+               <h4>关于</h4>
+               <a href="">关于我们</a>
+               <a href="">加入我们</a>
+               <a href="">团队</a>
+           </div>
+            <div class="t1">
+               <h4>服务</h4>
+               <a href="">服务条款</a>
+               <a href="">隐私协议</a>
+           </div>
+            <div class="t1">
+               <h4>产品</h4>
+               <a href="">如何使用</a>
+               <a href="">视频介绍</a>               
+               <a href="">更新历史</a>
+               <a href="">FAQ</a>
+           </div>
+    </div>
+    <div class="center">
+        <p>Made by对啊!我超棒的!©</p>
+    </div>
+    <div class="right">
+        <h3>关注我们</h3>
+        <h4> 
+            <a href="" style="background:url('images/u182.png') no-repeat scroll 0 0;"><img src="images/u188.png" alt=""></a>
+             <a href="" style="background:url('images/u186.png') no-repeat scroll 0 0;"><img src="images/u184.png" alt=""></a>
+             <a href="" style="background:url('images/u192.png') no-repeat scroll 0 0;"> </a>
+        </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+        
+    </div>
+</div>
+</body>
+</html>

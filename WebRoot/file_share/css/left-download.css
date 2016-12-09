@@ -1,0 +1,10 @@
+#left-download{
+	text-align: center;
+	font-size: 18px;
+	background: pink;
+	width: 120px;
+	margin-left: 40px;  /*居中？auto*/
+	margin-top: 45px;
+    height: 55px;
+    line-height: 55px;
+}

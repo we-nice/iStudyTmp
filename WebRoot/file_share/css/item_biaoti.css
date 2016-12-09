@@ -1,0 +1,12 @@
+#item_biaoti{
+	position: absolute;
+	font-size: 12px;
+	width: 190px;
+	line-height: 30px;
+	left: 7px;
+	top: 7px;
+	bottom: 7px;
+	text-align: center;
+	border: 1px solid #fff;
+	background: pink;
+}

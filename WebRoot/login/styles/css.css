@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*==header
+==============*/
+body{
+   width: 100%;
+   height: 100%;
+   background-image: url("../images/u1.png");
+  background-repeat:no-repeat;
+}
+#cont{
+  width: 100%;
+  margin:0 auto;
+}
+#cont .loginForm{
+   padding: 20px;
+ background:rgba(255, 255, 255, 0.2) none repeat scroll 0 0 !important;
+   width: 350px;
+   height: 400px;
+   margin: 5% auto;
+}
+#cont .loginForm form{
+
+   margin: 0 auto ;
+   width: 300px;
+   height: 100%;
+ 
+}
+
+#cont .loginForm div{
+   text-align: left;
+   height:40px;
+ 
+}
+
+#cont .loginForm div span{
+   display: block;
+   text-size: 20px;
+  
+}
+#cont .loginForm input{
+  width: 100%;
+  display: block;
+   height: 40px;
+ 
+}
+
+#cont .loginForm .button input{
+ 
+    
+   margin-top: 20%;
+   text-align: center;
+   background-color: #00ccff;
+   height: 50px;
+ 
+}

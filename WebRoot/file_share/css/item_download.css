@@ -1,0 +1,12 @@
+#item_download{
+	position: absolute;
+	font-size: 12px;
+	width: 100px;
+	line-height: 30px;
+	right: 20px;
+	top: 7px;
+	bottom: 7px;
+	text-align: center;
+	border: 1px solid #fff;
+	background: pink;
+}

@@ -1,0 +1,440 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*==header
+==============*/
+#shouye{
+ 
+	 
+margin:0 auto;
+}
+#header{
+ width: 100%;
+	height:384px;
+	margin:0 auto;
+	background-color: #fff;
+    position: relative;
+    z-index: 10px;
+    overflow: hidden;
+
+}
+ 
+ 
+
+/*==nav
+============*/
+
+#nav{
+
+	width:60%;
+	height:61px;
+	left: 20%;
+  	float: left;
+    position: absolute;
+    top: 0px;
+ 
+}
+#nav .nav_daohang{
+	width:810px;
+	height:61px;
+	margin:0 auto;
+}
+#nav .nav_daohang a{
+	display:inline-block;
+	width:107px;
+	height:42px;
+	margin:12px 50px 0 0;
+  text-align: center;
+	line-height:42px;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+  position: relative;
+}
+ 
+#nav .nav_daohang a img{
+     left: 42px;
+    position: absolute;
+    top: 11px;
+}
+
+
+ #user{
+   z-index: 999;
+   width: 200px;
+   height: 300px;
+   
+  
+   position: absolute;
+   right: 50px;
+   top: 20px;
+    
+
+ }
+#user .title {
+   width: 143px;
+   height: 30px;
+    cursor: pointer;
+   overflow: hidden;
+   margin: 0 30px;
+ }
+ #user .title img{
+   width: 30px;
+   height: 30px;
+   float: left;
+
+ }
+  #user .title h4{
+    display:block;
+	 
+	height:30px;
+	margin:0px 10px 0 0;
+    
+	line-height:30px;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+ 
+ }
+
+#userDescription{
+     width: 113px;
+     height: 200px;
+      
+    
+    border-color: rgba(121, 121, 121, 1);
+background:rgba(255, 255, 255, 0.2) none repeat scroll 0 0 !important;
+
+}
+#userDescription  a{
+   opacity: 1;
+	display:inline-block;
+	width:100px;
+	height:30px;
+	margin:4px 6px;
+    text-align: center;
+	line-height:32px;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	background-color: #7096c5;
+
+
+}
+
+#logo{
+
+  width: 260px;
+  height: 230px;
+  float: left;
+  z-index: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+  color:#fff;
+}
+#logo h2{
+	font-size: 30px;
+   margin: 10px 80px;
+     float: left;
+}
+#logo h3{
+      margin: 10px 20px;
+     float: left;
+}
+#logo div{
+
+	width:177px;
+	height:51px;
+ 
+	margin:0 auto;
+}
+#logo  a{
+	width:177px;
+	height:51px;
+	border:none;
+
+	cursor:pointer;
+	display:inline-block;
+	line-height: 51px;
+	text-align: center;
+ 
+ 	background-image: url("../images/u100.png");
+     background-repeat:no-repeat;
+	
+}
+#logo  a:hover{
+
+	background-image: url("../images/u100_mouseOver.png");
+	 
+}
+
+
+/*==content
+================*/
+#content{
+	width: 100%;
+	height:800px;
+	position:absolute;
+ 
+	 top: -100px;
+	 left: 0px;
+	z-index: -10px;
+ 
+}
+#content #content_ad{
+	position:absolute;
+  width: 100%;
+
+}
+#content #content_ad li{
+	 width: 100%;
+	position: relative;
+	display: none;
+}
+#content #content_ad img{
+	display:block;
+   width: 100%;
+	height:593px;
+}
+ #content_tab{
+	 
+	float: left;
+	margin: 15px 89px;
+ 
+}
+
+ #content_tab li{
+	float:left;
+	width:17px;
+	height:17px;
+	background:url("../images/u63.png") no-repeat scroll 0 0;
+	cursor:pointer;
+	margin-right:10px;
+}
+ #content_tab li.background{
+	background:url("../images/u61.png") no-repeat scroll 0 0;
+}
+
+/*==shouye text
+=================*/
+#nouse{
+  width: 100%;
+  height: 300px;
+   background-image: url("../images/u255_state0.jpg");
+}
+#nouse .cont{
+    margin-left: 18%;
+   width: 78%;
+  height: 300px;
+
+}
+#nouse .cont .cont1{
+   float: left;
+   width: 250px;
+   height: 250px;
+   margin: 40px 40px 10px 60px;
+ 
+}
+
+#nouse .cont a{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 100px;
+    background-image: url("../images/u96.png");
+    
+}
+#nouse .cont a img{
+    margin-top: 30px;
+}
+#nouse .cont h2{
+     float: left;
+     margin:20px 10px;
+}
+#nouse .cont div{
+     width: 90px;
+    height: 90px;
+    text-align: center;
+     margin:20px 10px;
+ 
+}
+#footer{
+  
+  height: 780px;
+  
+ position: relative;
+}
+#footer h2{
+  
+    color: #fff;
+}
+ 
+.tushutuijian{
+   margin: 0px auto;
+   width: 78%;
+  height: 300px;
+  padding-top: 20px;
+ 
+
+}
+.tushutuijian div{
+   margin: 0px auto;
+   width: 75%;
+  height: 260px;
+
+}
+.tushutuijian .t1{
+    float: left;
+   width: 150px;
+   height: 240px;
+   margin-left: 30px;
+   position: relative;
+
+
+}
+.tushutuijian .t1 img{
+    
+   width: 150px;
+   height: 240px;
+ 
+
+}
+.tushutuijian .t1 .des{
+  /* visibility: hidden;*/
+	 width: 110px;
+    height: 200px;
+	   background-color: #fff;
+	    filter:alpha(opacity:80); 
+	    opacity:0.8; 
+	    -moz-opacity:0.8;
+	    -khtml-opacity: 0.8;
+
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     margin-top: 10px;
+}
+.tushutuijian .t1 h2{
+     float: left;
+     
+}
+.tushutuijian .t1 div{
+     width: 90px;
+    height: 90px;
+    text-align: center;
+     padding:20px 20px;
+ 
+}
+.tushutuijian .t1 .des a{
+     float: left;
+     color: #8babd1;
+     cursor: pointer;
+}
+
+
+
+.youxiuhuida{
+   margin: 20px auto;
+   width: 78%;
+  height: 300px;
+  padding-top: 20px;
+
+
+}
+.youxiuhuida div{
+   margin: 10px auto;
+   width: 75%;
+  height: 300px;
+
+}
+.youxiuhuida .t1{
+    float: left;
+   width: 150px;
+   height: 300px;
+   padding: 20px 20px 20px 23px;
+   position: relative;
+   margin: 20px 30px;
+  background-color: #fff;
+	    filter:alpha(opacity:80); 
+	    opacity:0.8; 
+	    -moz-opacity:0.8;
+	    -khtml-opacity: 0.8;
+}
+
+
+.youxiuhuida .t1 h3  img{
+     
+   width:50px;
+   height: 50px;
+   display: block;
+   float: left;
+ margin: 0 50px 0 0px;
+}
+.youxiuhuida .t1 a{
+     float: left;
+   margin-left:40px;
+ color: #8babd1;
+}
+
+
+#guanyu{
+	height: 370px;
+	width: 100%;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+#guanyu .left{
+	float: left;
+   height: 230px;
+   width: 530px;
+   padding: 50px 0 0 20px;
+}
+#guanyu .left .t1{
+   height: 180px;
+   width: 150px;
+   margin:  0 0 0 20px;
+   float: left;
+}
+ 
+ #guanyu .left .t1 h4,a{
+    display: block;
+    float: left;
+    width: 100%;
+    margin:10px 10px 10px 0;
+}
+
+#guanyu .right{
+   height: 200px;
+   width: 340px;
+   padding: 50px 0 0 20px;
+   float: right;
+}
+
+#guanyu .right h4{
+   height: 90px;
+   width: 100%;
+   margin-top: 30px;
+ 
+}
+#guanyu .right a{
+   padding: 10px;
+   height: 49px;
+   width: 49px;
+   float: left;
+}
+#guanyu .right a img{
+   
+   height: 29px;
+   width: 29px;
+   float: left;
+}
+#guanyu .center{
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+}
+
+
+ 

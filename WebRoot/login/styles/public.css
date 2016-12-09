@@ -1,0 +1,158 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:14px;
+	font-family:Microsoft Yahei,"微软雅黑";
+	word-break:break-all;
+}
+*{
+	margin:0;
+	padding:0;
+}
+/*去除谷歌浏览器input,textarea等元素默认下focus会出现的黄色边框*/
+*:focus{
+	outline:none;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	font-size:12px;
+	outline:none;
+	color:#000;
+}
+img{
+	border:none;
+}
+em {
+	font-style:normal;
+}
+table {
+	border-collapse:collapse;
+}
+/*使已经浮动的元素能够撑开他的没有浮动的父元素*/           
+.clearfix:after {
+	content:",";
+	display:block;
+	overflow:hidden;
+	height:0;
+	clear:both;
+}
+.clearfix {
+	zoom:1;
+	clear: right;
+}
+/*去掉按钮button的点击时产生的虚线*/
+button::-moz-focus-inner{        
+	border-color:transparent!important;
+}
+/*解决ie下a标签设置为position:absolute不能点击*/
+.ieaclick{
+background:url("aboat:blank") repeat scroll 0 0 transparent;
+}
+.btn{
+    background-color: #479CEB;
+    color:#fff;
+    text-align: center;
+    cursor: pointer;
+    padding:8px 15px;
+    font-size: 14px;
+    border:0 none;
+    text-indent: 0;
+    display: inline-block;
+}
+.btn:hover{
+    background-color: #2680bf;
+}
+ 
+input{
+	border: 1px solid #cccccc;
+    font-size: 16px;
+    padding: 6px 0 6px;
+    vertical-align: middle;
+    margin:5px 0;
+    text-indent: 6px;
+}
+textarea:hover{
+    border:1px solid rgba(82, 168, 236, 0.8);    
+}
+textarea{
+    padding:6px;
+}
+ 
+select, input[type="file"] {
+    height: 30px;
+    line-height: 30px;
+}
+select {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 175px;
+    padding-left:5px;
+}
+select[multiple], select[size] {
+    height: auto;
+}
+input[type="file"],input[type="checkbox"]{
+   border:0 none;
+}
+ 
+.table{
+    color: #444444;
+    height: auto;
+    margin: 0 auto 10px;
+    width: 98%;
+}
+.table th{
+    background: none repeat scroll 0 0 #f2f0f0;
+    color: #479ceb;
+    height: 20px;
+    line-height: 20px;
+}
+.table tr{
+    text-align: center;
+}
+.table th,.table td {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+.table .btn{
+    margin:0 5px;
+    padding:5px 10px;
+}
+.status {
+    border-bottom: 2px solid #479ceb;
+    border-radius: 0 0 0 8px;
+    height: 60px;
+    margin: 10px auto;
+    width: 98%;
+}
+.status span a{
+    background-color:#479ceb;
+ 
+    border-radius: 8px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 18px;
+     height: 50px;
+    line-height: 50px;
+    text-align: center;
+   width: 140px;
+    margin-left: 30px;
+}
+.status  div{
+    width: 250px;
+    display: block;
+    float: left;
+    
+    margin-left: 30px;
+}
+
+ 
+ 
+.error{
+
+color:red ;
+}

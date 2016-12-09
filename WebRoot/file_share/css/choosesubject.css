@@ -1,0 +1,28 @@
+#choosesubject{
+	position: absolute;
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+	top: 210px;
+	left: 10px;
+}
+
+#btn_ack{
+	position: absolute;
+	width: 90px;
+	height: 35px;
+    line-height: 35px;
+    background: #f70;
+    top:280px; 
+    left: 40px;
+}
+
+#btn_noack{
+	position: absolute;
+	width: 90px;
+	height: 35px;
+    line-height: 35px;
+    background: #f70;
+    top:280px; 
+    left: 210px;
+}

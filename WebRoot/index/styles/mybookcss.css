@@ -1,0 +1,147 @@
+#dushushe {
+	background-image: url(../img/beijing.jpg);
+	height: 100%;
+	width: 100%;
+	float: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+#Logo {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	text-align: center;
+	width: 200px;
+	height: auto;
+}
+#Logo a{
+	color: black;
+}
+#Logo a:hover {
+	color: red;
+}	/* 鼠标移动到链接上 */
+#dabiaoti {
+	font-family: "楷体";
+	font-size: 36px;
+	width: 500px;
+	text-align: center;
+	margin-top: -80px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 500px;
+}
+#mybook .mb {
+	text-align: center;
+	position: absolute;
+	margin-top: -60px;
+	width: 149px;
+	float: right;
+	height: 41px;
+	left: 23px;
+	top: 51px;
+}
+
+#mybook {
+	width: 200px;
+	height: 45px;
+	float: right;
+	margin-top: -60px;
+	position: absolute;
+	left: 1322px;
+	top: 99px;
+}
+#fenlei {
+	
+	height: 450px;
+	width: 180px;
+	margin-left: 10%;
+	margin-top: 5%;
+
+}
+#fenlei .tushufenlei{
+	text-align: center;
+	font-family: "楷体";
+	height: 75px;
+	font-size: 18px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-width:1px;
+	
+}
+#fenlei .fenlei1{
+	font-family: "宋体";
+	text-align: center;
+	height: 60px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	clip: rect(auto,auto,auto,auto);
+	margin-top: 25px;
+}
+#fenlei .fenlei2{
+	font-family: "宋体";
+	height: 60px;
+	text-align: center;
+	margin-top: 25px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+}
+#fenlei .fenlei3{
+	font-family: "宋体";
+	height: 60px;
+	text-align: center;
+	margin-top: 25px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;}
+#fenlei .fenlei4{
+	font-family: "宋体";
+	height: 60px;
+	text-align: center;
+	margin-top: 25px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;}
+
+#iframe {
+	scrolling="auto";
+	frameborder="0";
+	height: 500px;
+	width: 800px;
+	margin-top: -480px;
+	margin-left: 400px;
+}
+
+a:link {
+	color: #3399FF
+	
+}		/* 未访问的链接 */
+a:visited {color: #3399FF}	/* 已访问的链接 */
+a:hover {
+	color: #0033FF
+}	/* 鼠标移动到链接上 */
+a:active {color: #0000FF}	/* 选定的链接 */
+a { TEXT-DECORATION:none }
